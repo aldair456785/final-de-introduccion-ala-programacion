@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #e2b10f5c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: 50%; /* Ajusta el ancho para que el 50% sea ocupado por la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.details {
+    width: 50%; /* Ajusta el ancho para que el 50% sea ocupado por el texto */
+}
+
+.details h2 {
+    font-size: 1.5em; /* Tamaño de fuente más grande para el título */
+    color: #000000;
+    margin-top: 0;
+}
+
+.details .description {
+    font-size: 1.1em; /* Tamaño de fuente más grande para la descripción */
+    color: #555;
+}
+
+.details .price {
+    font-size: 1.2em; /* Tamaño de fuente más grande para el precio */
+    color: #007bff; /* Color azul para el precio */
+    margin-top: 10px;
+}
+
+/* Button Styles */
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2e4660;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.buttons button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Message Styles */
+.message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
